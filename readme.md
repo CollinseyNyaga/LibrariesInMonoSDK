@@ -10,13 +10,16 @@
 
 2.
  In mono , we have various compilation targets , including library and executable.
- To compile code to a library target in mono we use the target:<TYPE> FLAG during compilation in the cli
- [command line interface] and compile the program code . 
+ To compile code to a library target in mono we use the target:
+ <br>
+ Use the <TYPE> FLAG during compilation in the cli[command line interface] and compile the program code to a library . 
+<br>
 
  NOTE that the library can contain a Main method , which can allow it to be executed. 
 
- compile /libs/maths.cs to library [dynamic library]
-		mcs math.cs -target:library
+ compile /libs/maths.cs to library [dynamic library]<br>
+		<code>mcs math.cs -target:library</code>
+	<br>
  --> a dll file is obtained , provided there are no compile time errors in the code . 
 
 3. 

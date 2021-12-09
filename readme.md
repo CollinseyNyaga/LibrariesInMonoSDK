@@ -3,9 +3,9 @@
 # For the mono runtime , language = csharp . 
 
 1. you have the following files in this filesystem : 
-	> /mainprog.cs		[contains the main method of the program.]
+	<code> /mainprog.cs		[contains the main method of the program.]</code>
 	<br>
-	> /libs/math.cs		[this is the uncompiled library code.]
+	<code> /libs/math.cs		[this is the uncompiled library code.]</code>
 
 2.
  In mono , we have various compilation targets , including library and executable.

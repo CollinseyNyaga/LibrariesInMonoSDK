@@ -42,6 +42,6 @@
 	main compiled exe. 
 
 
-===================================== Y O U R	W E L C O M E ================================= 
+============== Y O U R	W E L C O M E ==============
 
 THANKS FOR LISTENING TO MY TED TALK.

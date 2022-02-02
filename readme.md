@@ -10,7 +10,7 @@
 
 2.
  In mono , we have various compilation targets , including library and executable.
- To compile code to a library target in mono we use the target:
+ To compile code to a library target in mono we use the target flag during compilation :
  <br>
  Use the <TYPE> FLAG during compilation in the cli[command line interface] and compile the program code to a library . 
 <br>
@@ -21,6 +21,7 @@
 		<code>mcs math.cs -target:library</code>
 	<br>
  --> a dll file is obtained , provided there are no compile time errors in the code . 
+	<br>
 
 3. 
  To use the library , you must import the namespace of the library code into your main program , 
